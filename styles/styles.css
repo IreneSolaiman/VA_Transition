@@ -1,39 +1,39 @@
 
-/* The navigation bar */
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+.btn-group button {
+    background-color: #131844;
+    background-image: radial-gradient(#E4E5E7, #BDBEC0, #7D7E7F);
+    color: #222D81; /* Blue text */
+    font-size: 14px;
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
 }
 
-/* Links inside the navbar */
-.navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    font-family: georgia;
-    padding: 14px 16px;
-    text-decoration: none;
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
 }
 
-/* Change background on mouse-over */
-.navbar a:hover {
-    background: #ddd;
-    color: black;
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
 }
 
 /* Main content */
 .main {
-    margin-top: 50px; /* Add a top margin to avoid content overlay */
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
 
-
-
 html {
-  background-color: whitesmoke;
+    height: 200px;
+    background-color: #cccccc;
+    background-image: radial-gradient(#222D81, #1B2465, #131844);
 }
 
 html {
@@ -42,7 +42,7 @@ html {
 }
 
 p,h1,h2,h3,li{
-  color: black;
+  color: whitesmoke;
 }
 
 
