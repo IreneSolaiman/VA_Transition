@@ -1,9 +1,9 @@
-
 .btn-group button {
-    background-color: #131844;
-    background-image: radial-gradient(#E4E5E7, #BDBEC0, #7D7E7F);
-    color: #222D81; /* Blue text */
-    font-size: 14px;
+    background-color: #cccccc;
+    background-image: radial-gradient(#C0C0C0, #9C9B9B, #777777);
+    color: #1B2465; /* Navy text */
+    font-family: helvetica;
+    font-size: 20px;
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
@@ -23,6 +23,29 @@
 /* Add a background color on hover */
 .btn-group button:hover {
     background-color: #3e8e41;
+}
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #cccccc;
+    background-image: radial-gradient(#A1A1A1, #7D7E7F, #5A5A5A);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    margin: 0;
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #131844;
+    text-align: center;
+    font-family: georgia;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
 }
 
 /* Main content */
