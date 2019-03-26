@@ -1,2 +1,2 @@
 # VA_Transition
-Where we will build a journey map
+Setting up a page for Veteran Transition
